@@ -38,39 +38,40 @@
 </head>
 
 <body>
+
     <header class="main-header">
 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-3">
                     <a href="index.html" class="logo">
-                        <img src="assets/images/logo.png" alt="" width="100" height="100">
+                        <img src="assets/images/trademark-saviours-logo.png" alt="" height="100">
                     </a>
                 </div>
                 <div class="col-9 d-flex justify-content-end justify-content-xl-between align-items-center">
                     <div class="menuWrap">
+                        
                         <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
                             <li class="dropdown-nav"><a href="#">Services</a>
                                 <ul class="dropdown sub-menu">
                                     <li><a href="trademark-registration.html">Trademark Registration</a></li>
-                                    <li><a href="comprehensive-search.html">Comprehensive Search</a></li>
-                                    <li><a href="trademark-monitoring.html">Trademark Monitoring</a></li>
-                                    <li><a href="trademark-search.html">Trademark Search</a></li>
+                                    <li><a href="comprehensive-search.html">Trademark Comprehensive</a></li>
                                     <li><a href="copyright-registration.html">Copyright Registration</a></li>
-                                    <li><a href="office-action-response.html">Office Action Response</a></li>
-
+                                    <li><a href="trademark-monitoring.html">Trademark Monitoring</a></li>
+                                    <li><a href="registration-form.html">Registration Form</a></li>
                                 </ul>
                             </li>
+                            <li><a href="/packages.html">Packages</a></li>
                             <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
                             <li><a href="faqs.html">FAQs</a></li>
-                            <li><a href="our-guarantee.html">Our Guarantee</a></li>
-                            <li><a href="registration-form.html">Registration Form</a></li>
                         </ul>
                     </div>
                     <div class="hdr_r">
                         <ul>
                             <!--<li><a href=""><i class="far fa-user"></i> <span>My Account</span></a></li>-->
-                            <li><a href="tel:(213) 835-3220"><i class="far fa-phone"></i><span>(213) 835-3220</a></li>
+                            <li><a href="tel:(213) 357-3613"><i class="far fa-phone"></i><span>(213) 357-3613</a></li>
                         </ul>
                     </div>
                     <div class="menu-Bar">
@@ -82,8 +83,6 @@
             </div>
         </div>
     </header>
-
-
       
     <main id="main-content">
         <section class="mainBanner">
@@ -97,9 +96,9 @@
                                     process minimizes the chances of application rejection, and optimizes your
                                     application for success.</p>
                                 <div class="btn_group">
-                                    <a href="javascript:;" data-toggle="modal" data-target="#exampleModalCenter" class="theme-btn">Get
+                                    <a href="registration-form.html" data-toggle="modal" data-target="#exampleModalCenter" class="theme-btn">Get
                                         started</a>
-                                    <a href="#howits" class="theme-btn outlined_btn">Learn More</a>
+                                    <!-- <a href="#howits" class="theme-btn outlined_btn">Learn More</a> -->
                                 </div>
                             </div>
                         </div>
@@ -110,15 +109,13 @@
                 </div>
             </div>
         </section>
-<br><br><br>
-
-
         <div class="container">
+            <br><br><br><br>
             <div class="row justify-content-between">
                <div class="col-lg-10">
                   <div class="about-heading contact-us-area mt-5">
                      <h2>
-                     Trademark  <span> Initial Form</span>
+                     Trademark  <span> Application Process</span>
                      </h2>
                   </div>
                </div>
@@ -126,10 +123,10 @@
                <div class="col-md-12">
                      <div class="inner-contact-form" data-form-type="contact_form" >
                         <form class="jform validate"  method="post"  action="https://formspree.io/f/mjvqdkgo" novalidate>
-                              <div class="row">
-                                 <div class="col-lg-12">
+                              <div class="row gap-2">
+                                 
                                     <div class="form-group">
-                                          <label for="type">Entity Type <span class="text-red">*</span></label required><br>
+                                          <label for="type">Entity Type <span class="text-danger">*</span></label required><br>
                                           <input type="radio" id="Individual" name="Type" value="Individual">
                                           <label for="Individual">Individual</label><br>
                                           <input type="radio" id="Corporation" name="Type" value="Corporation">
@@ -147,65 +144,83 @@
                                              required> -->
                                     </div>
                                  </div>
-                                 <div class="col-lg-12">
+                                 
                                     <div class="form-group">
-                                          <label for="partnername">Partner Name <span class="text-red">*</span></label>
-                                          <input type="text" name="Partner Name" placeholder="Partner Name" class="form-control required" id="partnername"
+                                          <label for="partnername1">Partner's Name 1<span class="text-danger">*</span></label>
+                                          <input type="text" name="Partner's Name 1" placeholder="Partner's Name 1" class="form-control required" id="partnername1"
                                              required>
+                                             <small class="text-secondary" style="font-size: 12px;">Name and Citizenship of All General Partners
+                                            </small>
                                     </div>
-                                    <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="partnername2">Partner's Name 2<span class="text-danger">*</span></label>
+                                        <input type="text" name="Partner's Name 2" placeholder="Partner's Name 2" class="form-control required" id="partnername2"
+                                           required>
+                                           <small class="text-secondary" style="font-size: 12px;">Name and Citizenship of All General Partners
+                                        </small>
+                                  </div>
+                                    
                                         <div class="form-group">
-                                              <label for="ownerofthemark">Owner of the mark <span class="text-red">*</span></label>
+                                              <label for="ownerofthemark">Owner of the mark <span class="text-danger">*</span></label>
                                               <input type="text" name="Onwer of the Mark" placeholder="Onwer of the Mark" class="form-control required" id="ownerofthemark"
                                                  required>
                                         </div>
-                                        <div class="col-lg-12">
+                                        
                                             <div class="form-group">
-                                                  <label for="DBA">DBA (Doing Business As) <span class="text-red">*</span></label>
+                                                  <label for="DBA">DBA (Doing Business As) <span class="text-danger">*</span></label>
                                                   <input type="text" name="DBA (Doing Business As)" placeholder="DBA (Doing Business As)" class="form-control required" id="DBA"
                                                      required>
                                             </div>
-                                            <div class="col-lg-12">
+                                            
                                                 <div class="form-group">
-                                                      <label for="businessname">Business Name <span class="text-red">*</span></label>
+                                                      <label for="businessname">Business Name <span class="text-danger">*</span></label>
                                                       <input type="text" name="Business Name" placeholder="Businesss Name" class="form-control required" id="businessname"
                                                          required>
                                                 </div>
-                                                <div class="col-lg-12">
+                                                
                                                     <div class="form-group">
-                                                          <label for="businessnature">Business Nature <span class="text-red">*</span></label>
+                                                          <label for="businessnature">Business Nature <span class="text-danger">*</span></label>
                                                           <input type="text" name="Business Nature" placeholder="Business Nature" class="form-control required" id="businessnature"
                                                              required>
                                                     </div>
                                                     <div class="col-lg-8">
                                                         <div class="form-group">
-                                                              <label for="address">Address <span class="text-red">*</span></label>
+                                                              <label for="address">Address <span class="text-danger">*</span></label>
                                                               <input type="text" name="Address" placeholder="Address" class="form-control required" id="address"
                                                                  required>
                                                         </div>
                                  
-                                 <div class="col-lg-12">
+                                 
                                     <div class="form-group">
-                                          <label for="number">Enter Your Phone Number <span class="text-red">*</span></label>
+                                          <label for="number">Enter Your Phone Number <span class="text-danger">*</span></label>
                                           <input type="number" name="Number" minlength="5" maxlength="15" placeholder="Phone Number" data-validation="required" class="required phone-field form-control" onkeypress="return numbersonly(this, event)" required>
                                     </div> 
-                                    <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="alternatephone">Alternate Phone Number <span class="text-danger">*</span></label>
+                                        <input type="number" name="Alternate Phone" minlength="5" maxlength="15" placeholder="Alternate Phone Number" data-validation="required" class="required phone-field form-control" onkeypress="return numbersonly(this, event)" required>
+                                  </div> 
+                                    
                                         <div class="form-group">
-                                              <label for="website">Website <span class="text-red">*</span></label>
+                                              <label for="website">Website <span class="text-danger">*</span></label>
                                               <input type="text" name="Website" placeholder="Website" class="form-control required" id="website"
                                                  required>
                                         </div>
                                         </div>
-                                      <div class="col-lg-12">
+                                      
                                         <div class="form-group">
-                                              <label for="userEmail">Enter Your Email <span class="text-red">*</span></label>
+                                              <label for="userEmail">Enter Your Email <span class="text-danger">*</span></label>
                                               <input type="email" name="Email" placeholder="Email" class="form-control required" id="userEmail"
                                                  required>
                                         </div>
+                                        <div class="form-group">
+                                            <label for="userFax">Fax </label>
+                                            <input type="text" name="Fax" placeholder="Fax" class="form-control required" id="userFax"
+                                               required>
+                                      </div>
                                         </div>
                                         </div>
                                             <div class="col-lg-8">
-                                            <label for="trademark">I Want To Trademark <span class="text-red">*</span></label required><br>
+                                            <label for="trademark">I Want To Trademark </label required><br>
                                             <input type="checkbox" id="brandname" name="Trademark" value="brandname">
                                                 <label for="trademark"> Brand Name</label><br>
                                                 <input type="checkbox" id="Trademark" name="Trademark" value="brandlogo">
@@ -216,13 +231,13 @@
                                  <div class="col-md-8">
                                     <div class="form-group">
                                           <label for="Requirement">Your Goods & Services: <span
-                                                class="text-red">*</span></label>
+                                                class="text-danger">*</span></label>
                                           <textarea class="form-control required" placeholder="PLEASE PROVIDE A DESCRIPTION OF YOUR GOODS OR SERVICES" name="brief" id="Requirement" required></textarea>
                                     </div>
                                  </div>
                                  <div class="col-md-8"></div>
                                  <div class="form-group">
-                                 <label for="Logo">Are You Currently Using Your Logo?<span class="text-red">*</span></label required><br>
+                                 <label for="Logo">Are You Currently Using Your Logo?</label required><br>
                                     <input type="radio" id="yes" name="Logo" value="yes">
                                     <label for="Logo">Yes</label><br>
                                     <input type="radio" id="no" name="Logo" value="no">
@@ -230,7 +245,7 @@
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="form-group">
-                                          <label for="mark">If Yes, Provide Us A List Of All Places You Intend To Use Your Mark <span class="text-red">*</span></label required><br>
+                                          <label for="mark">If Yes, Provide Us A List Of All Places You Intend To Use Your Mark </label required><br>
                                             <input type="checkbox" id="products" name="Mark" value="products">
                                             <label for="mark"> Products</label><br>
                                             <input type="checkbox" id="website" name="Mark" value="website">
@@ -246,7 +261,7 @@
                                         </div>
                                          <div class="col-md-12">
                                             <div class="form-group">
-                                                  <label for="Others">Others<span class="text-red">*</span></label>
+                                                  <label for="Others">Others</label>
                                                   <input type="text" name="other" placeholder="If No, Please Provide An Expected Date Of Use And A List Of All Places You Intend To Use In Future" class="form-control required" id="userEmail"
                                                      required>
                                             </div>
@@ -258,7 +273,7 @@
                                        
                                        <button class="btn default-btn btn btn-danger" type="submit" name="submit">
                                           <span>
-                                             START YOUR PROJECT
+                                             SUBMIT
                                           </span>
                                        </button>
                                 
@@ -269,93 +284,79 @@
                </div>
             </div>
             </div>
+    </main>
 
-            <footer class="site-footer " style="background:#555 url(assets/images/footer-bg.jpg); background-blend-mode: hard-light;">
-                <div class="container">
-                    <div class="col-md-12">
+    <footer class="site-footer" style="background:#555 url(assets/images/footer-bg.jpg); background-blend-mode: hard-light;">
+        <div class="container overlay-footer">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="sf_1">
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/trademark-saviours-logo.png" alt="" >
+                        </a>
+                        <p>We work hard to protect your brand at affordable rates. Our proven standardized process
+                            minimizes the chances of application rejection, and optimizes your application for success.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <div class="sf_1">
-                                <a href="index.html" class="logo">
-                                    <img src="assets/images/logo-footer.png" alt="" >
-                                </a>
-                                <p>We work hard to protect your brand at affordable rates. Our proven standardized process
-                                    minimizes the chances of application rejection, and optimizes your application for success.
-                                </p>
-                                <ul class="social">
-                                    <li><a href="https://www.linkedin.com/company/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <div class="col-md-4">
+                            <div class="sf_2">
+                                <p>Services</p>
+                                <ul>
+                                    <li><a href="trademark-registration.html">Trademark Registration</a></li>
+                                    <li><a href="comprehensive-search.html">Trademark Comprehensive Search</a></li>
+                                    <li><a href="trademark-monitoring.html">Trademark Monitoring</a></li>
+                                    <li><a href="copyright-registration.html">Copyright Registration</a></li>
+                                    <li><a href="registration-form.html">Resgistration Form</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="sf_2">
-                                        <p>Services</p>
-                                        <ul>
-                                            <li><a href="trademark-registration.html">Trademark Registration</a></li>
-                                            <li><a href="comprehensive-search.html">Comprehensive Search</a></li>
-                                            <li><a href="trademark-monitoring.html">Trademark Monitoring</a></li>
-                                            <li><a href="trademark-search.html">Trademark Search</a></li>
-                                            <li><a href="copyright-registration.html">Copyright Registration</a></li>
-                                            <li><a href="office-action-response.html">Office Action Response</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="sf_2">
-                                        <p>Quick Links</p>
-                                        <ul>
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="faqs.html">FAQs</a></li>
-                                                                                <li><a href="our-guarantee.html">Our Guarantee</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="sf_2 sf_3">
-                                        <p>Contact Us</p>
-                                        <a href="javascript:void(Tawk_API.toggle())" class="chat_btn"><i class="fal fa-comment-dots"></i>LIVE CHAT</a>
-                                        <a href="" class="call_btn"><i class="fa fa-compass"></i>
-                                            <span>
-                                                                                        <strong>1014 Broadway,#255, Santa Monica, CA 90401</strong>
-                                            </span>
-                                        </a>
-                                        <a href="tel:(213) 835-3220" class="call_btn"><i class="fa fa-phone"></i>
-                                            <span>
-                                                <small>Mon-Fri 7AM to 7PM</small>
-                                                <strong>(213) 835-3220</strong>
-                                            </span>
-                                        </a>
-                                        
-                                    </div>
-                                    
-                                </div>
+                        <div class="col-md-4">
+                            <div class="sf_2">
+                                <p>Quick Links</p>
+                                <ul>
+                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="faqs.html">FAQs</a></li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="sf_2 sf_3">
+                                <p>Contact Us</p>
+                                <a href="" class="call_btn"><i class="fa fa-compass"></i>
+                                    <span>
+                                                                                <strong>610 S Broadway Los Angeles, CA 90014</strong>
+                                    </span>
+                                </a>
+                                <a href="tel:(213) 357-3613" class="call_btn"><i class="fa fa-phone"></i>
+                                    <span>
+                                        <strong>(213) 357-3613</strong>
+                                    </span>
+                                </a>
+                                
+                            </div>
+                            
                         </div>
                     </div>
-                    <div class="sf_4">
-                        <img src="assets/images/payment-methods.png" width="145px" alt="" class="img-fluid">
-                    </div>
-                    <div class="ftr_btm">
-                        <p>Copyright © 2023 Trademarks and Patent. All Rights Reserved.</p>
-                    </div>
                 </div>
-               
-            </footer>
-
-
-
+            </div>
+            <!-- <div class="sf_4">
+                <img src="assets/images/payment-methods.png" width="145px" alt="" class="img-fluid">
+            </div> -->
+            <div class="ftr_btm">
+                <p>© Copyright 2023 Trademark Urban. Trademark Urban is a private legal firm that connects and employs attorneys from throughout the United States. Trademark Urban specializes in copyright and trademark services. Terms of Services and Privacy Policy.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/jquery.js"></script>
-    <script src="../cdn.jsdelivr.net/npm/popper.js%401.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- <script src="../cdn.jsdelivr.net/npm/popper.js%401.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="../cdn.jsdelivr.net/npm/bootstrap%404.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-	<script src="../cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="../cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
 
     <script src="assets/js/custom.js"></script>
     <script>
